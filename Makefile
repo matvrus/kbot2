@@ -3,7 +3,7 @@ REGISTRY := quay.io
 NAME := ruslanlap
 TAG=$(shell git describe --tags --abbrev=0)
 VERSION=$(shell dpkg --print-architecture)
-TARGETOS= windows #linux darwin windows
+TARGETOS= linux #linux darwin windows
 TARGETARCH=arm64 #amd64 arm64
 BINARY_NAME := ${GOOS}
 
